@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="/Users/gwc/Documents/beauty_app/survey.css"/>
+  <script src="/Users/gwc/Documents/beauty_app/survey.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>Style Survey</h1>
+  <form name="my form" action="file:///Users/gwc/Documents/beauty_app/sign_up.html">
+    Are you:
+    <select name="genders" id="genders">
+      <option value="select">Select</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+    </select>
+    <br><br>
+    <div id="Foutfit">
+        If you are a female, which outfit do you like the most:<br>
+        <input type="checkbox" value = "1" name="femaleOutfitOne" id="femaleOutfit1" ><img src="file:///Users/gwc/Documents/beauty_app/img/femaleOutfitOne.jpg"
+        style="width:320px;height:450px;"><br>
+        <input type="checkbox" value = "2" name="femaleOutfitTwo" id="femaleOutfit2" ><img src="file:///Users/gwc/Documents/beauty_app/img/FemaleOutfitTwo.jpg"
+        style="width:320px;height:400px;"><br>
+        <input type="checkbox" value="3" name="femaleOutfitThree" id="femaleOutfit3" ><img src="file:///Users/gwc/Documents/beauty_app/img/femaleOutfitThree.jpg"
+        style="width:320px;height:400px;"><br>
+        <input type="checkbox" value="4" name="femaleOutfitFour" id="femaleOutfit4" ><img src="file:///Users/gwc/Documents/beauty_app/img/femaleOutfitFour.jpg"
+        style="width:320px;height:430px;"><br>
+        <input type="checkbox" value="5" name="femaleOutfitFive" id="femaleOutfit5" ><img src="file:///Users/gwc/Documents/beauty_app/img/femaleOutfitFive.jpg"
+        style="width:320px;height:450px;"><br>
+        <input type="checkbox" value="6" name="femaleOutfitSix" id="femaleOutfit6" ><img src="file:///Users/gwc/Documents/beauty_app/img/femaleOutfitSix.jpg"
+        style="width:320px;height:450px;">
+    </div>
+    <br>
+    <div id="Moutfit">
+      If you are a male, which outfit do you like the most:<br>
+      <input type="checkbox" value="1" name="maleOutfitOne" id="maleOutfit1" ><img src="file:///Users/gwc/Documents/beauty_app/img/maleOutfitOne.jpg"
+      style="width:320px;height:400px;"><br>
+      <input type="checkbox" value="2" name="maleOutfitTwo" id="maleOutfit2" ><img src="file:///Users/gwc/Documents/beauty_app/img/maleOutfitTwo.jpg"
+      style="width:320px;height:400px;"><br>
+      <input type="checkbox" value="3" name="maleOutfitThree" id="maleOutfit3" ><img src="file:///Users/gwc/Documents/beauty_app/img/maleOutfitThree.jpg"
+      style="width:320px;height:400px;"><br>
+      <input type="checkbox" value="4" name="maleOutfitFour" id="maleOutfit4" ><img src="file:///Users/gwc/Documents/beauty_app/img/maleOutfitFour.jpg"
+      style="width:320px;height:400px;"><br>
+      <input type="checkbox" value="5" name="maleOutfitFive" id="maleOutfit5" ><img src="file:///Users/gwc/Documents/beauty_app/img/maleOutfitFive.jpg"
+      style="width:320px;height:400px;"><br>
+      <input type="checkbox" value="6" name="maleOutfitSix" id="maleOutfit6" ><img src="file:///Users/gwc/Documents/beauty_app/img/maleOutfitSix.jpg"
+      style="width:320px;height:400px;">
+    </div>
+
+    <div id="age">
+        <br>How old are you?(not to be creepy)<br>
+        <input type="checkbox" name="age" value="10-14" id="a1"> 10-14<br>
+        <input type="checkbox" name="age" value="15-18" id="a2"> 15-19<br>
+        <input type="checkbox" name="age" value="22-29" id="a3"> 20-29<br>
+        <input type="checkbox" name="age" value="30-39" id="a4"> 30-39<br>
+        <input type="checkbox" name="age" value="40-49" id="a5"> 40-49<br>
+        <input type="checkbox" name="age" value="50=59" id="a6"> 50-59<br>
+        <input type="checkbox" name="age" value="60-69" id="a7"> 60-69<br>
+        <input type="checkbox" name="age" value="70-79" id="a8"> 70-79<br>
+        <input type="checkbox" name="age" value="80-89" id="a9"> 80-89<br>
+    </div>
+
+    <div id="height">
+      <br>How tall are you?<br>
+      <input type="checkbox" name="height" value="petite" id="h1"> Petite (under 5'3)<br>
+      <input type="checkbox" name="height" value="regular" id="h2"> Average (5'4-5'7)<br>
+      <input type="checkbox" name="height" value="tall" id="h3"> Tall (5'8 up)<br>
+    </div>
+
+    <div id="btype" >
+      <br>What's your body type?<br>
+      <input type="checkbox" name="btype" value="apple shape" id="b1"> Apple Shape<br>
+      <input type="checkbox" name="btype" value="Hourglass shape" id="b2"> Hourglass Shape<br>
+      <input type="checkbox" name="btype" value="triangle shape" id="b3"> Inverted Triangle Shape<br>
+      <input type="checkbox" name="btype" value="Pear shape" id="b4"> Pear shape<br>
+      <input type="checkbox" name="btype" value="straight shape" id="b5"> Straight shape<br>
+      <input type="checkbox" name="btype" value="triangle shape" id="b6"> Triangle shape<br>
+    </div>
+
+
+    <div id="confident">
+      <br>Which part of your body do you feel most confident in revealing?<br>
+      <input type="checkbox" name="confident" value="arms" id="c1"> Arms<br>
+      <input type="checkbox" name="confident" value="chest" id="c2"> Chest<br>
+      <input type="checkbox" name="confident" value="Legs" id="c3"> Legs<br>
+      <input type="checkbox" name="confident" value="shoulders" id="c4"> Shoulders<br>
+      <input type="checkbox" name="confident" value="Stomach" id="c5"> Stomach<br>
+    </div>
+
+
+    <div id="shops" >
+      <br>Where do you shop usually?<br>
+      <input type="checkbox" name="shops" value="american" id="sh1"> American Eagle<br>
+      <input type="checkbox" name="shops" value="brandy" id="sh2"> Brandy Melville<br>
+      <input type="checkbox" name="shops" value="forever" id="sh3"> Forever 21<br>
+      <input type="checkbox" name="shops" value="Lululemon Athletica" id="sh4"> Lululemon Athletica<br>
+      <input type="checkbox" name="shops" value="Missguided" id="sh5"> Missguided<br>
+      <input type="checkbox" name="shops" value="Neiman Marcus" id="sh6"> Neiman Marcus<br>
+      <input type="checkbox" name="shops" value="nordstrom" id="sh7"> Nordstrom<br>
+      <input type="checkbox" name="shops" value="Topshop" id="sh8"> Topshop<br>
+      <input type="checkbox" name="shops" value="urban" id="sh9"> Urban Outfitters<br>
+      <input type="checkbox" name="shops" value="zara" id="sh10"> Zara<br>
+    </div>
+
+    <div id="shirt" >
+      <br>What is your shirt size?<br>
+      <input type="checkbox" name="shirt" value="s" id="s1"> Small<br>
+      <input type="checkbox" name="shirt" value="m" id="s2"> Medium<br>
+      <input type="checkbox" name="shops" value="l" id="s3"> Large<br>
+      <input type="checkbox" name="shops" value="Xl" id="s4"> Extra Large<br>
+      <input type="checkbox" name="shops" value="XXl" id="s5"> Extra Extra Large<br>
+    </div>
+
+    <div id="size" >
+      <br>What is your pant size ?<br>
+      <input type="checkbox" name="size" value="2" id="si1"> Size 0<br>
+      <input type="checkbox" name="size" value="2" id="si2"> Size 2<br>
+      <input type="checkbox" name="size" value="4" id="si3"> Size 4<br>
+      <input type="checkbox" name="size" value="6" id="si4"> Size 6<br>
+      <input type="checkbox" name="size" value="8" id="si5"> Size 8<br>
+      <input type="checkbox" name="size" value="10" id="si6"> Size 10<br>
+      <input type="checkbox" name="size" value="12" id="si7"> Size 12<br>
+      <input type="checkbox" name="size" value="14" id="si8"> Size 14<br>
+      <input type="checkbox" name="size" value="16" id="si9"> Size 16<br>
+      <input type="checkbox" name="size" value="18" id="si10"> Size 18<br>
+      <input type="checkbox" name="size" value="20" id="si11"> Size 20<br>
+      <input type="checkbox" name="size" value="22" id="si12"> Size 22<br>
+      <input type="checkbox" name="size" value="24" id="si13"> Size 24<br>
+      <input type="checkbox" name="size" value="26" id="si14"> Size 26<br>
+    </div>
+
+    <input type="submit" value="Submit" onclick="save()">
+  </form>
+</body>
+</html>
+
+
+   <!-- <a href="beauty.html"><img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-icons-media/003333-glossy-black-icon-media-a-media21-arrow-back.png" height="42" width="42"></a>
+   <a href="survey.html"><img src="http://tgf-thermal.herokuapp.com/index/assets/play.svg" height="42" width="42"></a> -->
